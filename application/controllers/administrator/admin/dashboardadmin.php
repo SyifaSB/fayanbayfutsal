@@ -18,9 +18,10 @@ class Dashboardadmin extends CI_Controller{
 
 	public function index()
 	{
+		$data['tb_pemesanan'] = $this->pemesanan_model->tampil_data('tb_pemesanan')->result();
 		$this->load->view('templates_administrator/header');
 		$this->load->view('templates_administrator/sidebaradmin');
-		$this->load->view('administrator/admin/dashboardadmin');
+		$this->load->view('administrator/admin/dashboardadmin',$data);
 		$this->load->view('templates_administrator/footer');
 	}
 }

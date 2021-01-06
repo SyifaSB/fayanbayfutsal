@@ -3,11 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" href="assets/img/download.jpg">
+  
+
+  <link rel="icon" href="assets/img/logoo.jpg">
   <title>LOGIN</title>
+
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
   <!-- Font Awesome -->
   <link rel="stylesheet" href="assets/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
@@ -18,15 +21,24 @@
   <link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <style type="text/css">
+  .style{
+    background: url('assets/img/bg.jpg') no-repeat fixed; background-size: cover;
+    background-size: 100% 100%;
+  }
+  </style>
+  <!-- <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> -->
 </head>
-<body class="hold-transition login-page">
-
-  <img src="<?php echo base_url() ?>assets/img/download.jpg ?>" class="brand-image img-circle elevation-3"
-           style="opacity: 200">
+<body class="hold-transition login-page style">
+  
+  <img src="<?php echo base_url() ?>assets/img/logoo.jpg" class="brand-image img-circle elevation-3"
+           style="opacity: 200" witdh="110" height="150">
+           <br>
 <div class="login-box">
 
   <div class="login-logo">
-    <label><a>SELAMAT DATANG DI SIAKAD</a></label>
+    <label><h1>FAYANBAY FUTSAL</h1></label>
   </div>
   <!-- /.login-logo -->
   <div class="card">
